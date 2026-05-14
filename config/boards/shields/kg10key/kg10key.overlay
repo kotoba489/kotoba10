@@ -1,0 +1,13 @@
+#include "kg10key.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &default_layout;
+    };
+};
+
+/* * エンコーダーの物理ピン定義は、ビルドエラー回避のため
+ * kg10key.keymap 側へ集約しました。
+ * ここでは追加の設定は不要です。
+ */
