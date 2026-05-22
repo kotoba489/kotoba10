@@ -67,6 +67,12 @@ L0 (7+8), L1 (8+9), L2 (7+4) の配置で各モードに瞬時にアクセス。
 
 2+3の同時押しに Backspace を割り当て、指の移動距離を短縮。
 　
+
+## ZMK Studio 対応
+physical-layout 定義済み。Studio からキーマップをリアルタイム編集できます。
+
+---
+
 ## MIT License
 
 This project is licensed under the MIT License.
